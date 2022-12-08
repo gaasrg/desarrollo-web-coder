@@ -1,0 +1,10 @@
+/*colores*/
+$color-principal: rgb(255, 164, 61);
+
+/* Mixin */
+
+@mixin flexbox-base($display, $flex-direction ) {
+    display: $display;
+    flex-direction: $flex-direction;
+}
+

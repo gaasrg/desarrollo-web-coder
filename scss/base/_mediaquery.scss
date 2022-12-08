@@ -1,0 +1,54 @@
+
+/* Media query tablet */
+@media screen and (max-width:768px) {
+    .banner h1 {
+        font-size: 4.5rem;
+    }
+    .cards .card a img{ 
+        width: 350px;
+        height: 350px;
+    }
+    section .grid-container .grid-item-1{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    section .grid-container .grid-item-2{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    section .grid-container .grid-item-3{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+}
+/* Media query mobile */
+@media screen and (max-width:480px) {
+    .banner h1 {
+        font-size: 3rem;
+    }
+    .cards .card a img{ 
+        width: 280px;
+        height: 280px;
+    }
+    section .grid-container .grid-item img {
+        height: 300px;
+        width: auto;
+        padding: 0.5rem;
+    }
+    section .grid-container .grid-item-2 h2{
+        font-size: 1.5rem;
+    }
+    section .grid-container .grid-item-2 h3{
+        font-size: 1rem;
+    }
+    section .grid-container .grid-item-2 p{
+        font-size: 0.7rem;
+    }
+    section .grid-container .grid-item iframe {
+        padding: 0.5rem;
+        width: 300px;
+        max-width: 100%;
+    }
+}
