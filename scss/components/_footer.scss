@@ -1,0 +1,23 @@
+footer {
+    background-color: $color-principal;
+    color: white;
+    @include flexbox-base (flex, column);
+    justify-content: center;
+    align-items: center;
+    h2 {
+    text-align: center;
+    padding-top: 1rem;
+    }
+    ul{
+    display: flex;
+    list-style: none;
+        li {
+        text-decoration: none;
+        padding: 1rem;
+            a img {
+        width: 25px;
+        height: 25px;
+        }
+        }
+    }
+}
